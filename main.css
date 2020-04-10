@@ -1,8 +1,90 @@
-h1, h2, h3, h4, h5, h6{color:blue}
-h1{font-size: 96px;font-family: 'Modak', cursive;}
-p{font-family: 'Modak', cursive;font-size: 36px;}
-/* you can comment on css too */
-.paras{
-    color: yellow;
+
+*{
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
+
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    color: #DDD;
+}
+
+/* typography
+================= */
+
+.title {
+    font-size: 2.5rem;
+
+}
+
+.title span {
+    font-weight: 300;
+    display: block;
+    font-size: 0.9rem;
+
+}
+
+
+
+/* header
+================= */
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+   margin: 1em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a {
+    font-weight: 900;
+    color: aliceblue;
+    padding: .5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem   
+    
+}
+
+nav a:hover,
+nav a:focus {
+    color:#DDD
+}
+
+/* home-hero 
+==================== */
+
+.home-hero {
+    background-image: url(https://images.unsplash.com/photo-1529753253655-470be9a42781?ixlib=rb-1.2.1&w=1000&q=80);
+    padding: 10cm;
+
+}
+
+.button {
+    color: #DDD;
+}
